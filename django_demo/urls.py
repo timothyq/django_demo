@@ -20,5 +20,5 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     # Include the URLs from the dbdemo app
-    path('app/', include('dbdemo.urls')),
+    path('', include('dbdemo.urls')),
 ]
